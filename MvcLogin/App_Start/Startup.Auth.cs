@@ -60,8 +60,8 @@ namespace MvcLogin
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "886715676333-mirg1hg45rq5887b80n2uc1u6pa19ron.apps.googleusercontent.com",
-                ClientSecret = "TN_ZPtzaJaywNJGf0-zmLS3X"
+                ClientId = "yourclientid.apps.googleusercontent.com",
+                ClientSecret = "yourclientsecret"
             });
         }
     }
